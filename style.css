@@ -1,3 +1,151 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
 html { box-sizing: border-box; }
 *, :after, :before { box-sizing: inherit; }
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+   
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 30px 20px;
+}
+
+.obrtraveler {
+    width: 350px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.traveler {
+    margin: 60px 75px 30px 75px;
+
+}
+    
+
+.button1 {
+    margin: 30px 152px 5px 152px;
+    font-size: 14px;
+    color: white;
+    background-color:#1da1f2;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 11px 30px; 
+
+}
+
+.button2 {
+    margin: 5px 140px 5px 140px;
+    font-size: 14px;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 11px 30px 10px 30px; 
+
+}
+
+.obrmapa {
+    margin: 0;
+}
+
+.mapa {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px 20px 20px 20px;
+    margin: 20px 20px 7px 20px;
+}
+
+.obrkaktus {
+    margin: 0;
+}
+
+.kaktus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px 20px 20px 20px;
+    margin: 20px 20px 7px 20px;
+}
+
+
+.obrletadlo {
+    margin: 0;
+}
+
+.letadlo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px 20px 20px 20px;
+    margin: 20px 20px 7px 20px;
+}
+
+
+.obrpalma {
+    margin: 0;
+}
+
+.palma {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px 20px 20px 20px;
+    margin: 20px 20px 7px 20px;
+}
+
+
+.obrslunecnik {
+    margin: 0;
+}
+
+.slunecnik {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px 20px 20px 20px;
+    margin: 20px 20px 7px 20px;
+}
+
+
+.obrauto {
+    margin: 0;
+}
+
+.auto {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 32px 20px 20px 20px;
+    margin: 20px 20px 60px 20px;
+}
+
+@media screen and (min-width: 640px) {
+    .kontejner {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+	.palma, 
+	.slunecnik,
+	.auto {
+		flex-basis: calc(100%/3);
+	}
+}
+
+@media screen and (min-width: 1100px) {
+    .kontejner {
+        flex-basis: ;
+    }
+}
+
+/*;*/
